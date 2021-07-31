@@ -1,0 +1,1649 @@
+<!doctype html>
+<html class="no-js">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><link rel="index" title="Índice" href="genindex.html" /><link rel="search" title="Búsqueda" href="search.html" /><link rel="prev" title="prototools" href="modules.html" />
+
+    <link rel="shortcut icon" href="_static/icono.ico"/><meta name="generator" content="sphinx-3.5.4, furo 2021.04.11.beta34"/>
+        <title>prototools package - documentación de prototools - 1.0.0</title>
+      <link rel="stylesheet" href="_static/styles/furo.css?digest=59ab60ac09ea94ccfe6deddff6d715cce948a6fc">
+    <link rel="stylesheet" href="_static/pygments.css">
+    <link media="(prefers-color-scheme: dark)" rel="stylesheet" href="_static/pygments_dark.css">
+    
+
+
+<style>
+  :root {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-code-background: #272822;
+  --color-code-foreground: #f8f8f2;
+  
+    }
+  }
+
+  /* For allowing end-user-specific overrides */
+  .override-light {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  .override-dark {
+    --color-code-background: #272822;
+  --color-code-foreground: #f8f8f2;
+  
+  }
+</style><link rel="stylesheet" href="_static/styles/furo-extensions.css?digest=d391b54134226e4196576da3bdb6dddb7e05ba2b"></head>
+  <body dir="">
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z"/>
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="feather feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">documentación de prototools - 1.0.0</div></a>
+    </div>
+    <div class="header-right">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand centered" href="index.html">
+  
+  <div class="sidebar-logo-container">
+    <img class="sidebar-logo" src="_static/logo_prototools.png" alt="Logo"/>
+  </div>
+  
+  
+</a><form class="sidebar-search-container" method="get" action="search.html">
+  <input class="sidebar-search" placeholder=Búsqueda name="q">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="user.html">Guía de usuario</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Ejemplos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conducta.html">Código de Conducta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licencia.html">Licencia</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="modules.html">prototools</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label for="toctree-checkbox-1"><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">prototools package</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <main class="main">
+    <div class="content">
+      <article role="main">
+        <label class="toc-overlay-icon toc-content-icon" for="__toc">
+          <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+        </label>
+        <div class="section" id="prototools-package">
+<h1>prototools package<a class="headerlink" href="#prototools-package" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+<div class="section" id="module-prototools.componentes">
+<span id="prototools-componentes-module"></span><h2>prototools.componentes module<a class="headerlink" href="#module-prototools.componentes" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="py class">
+<dt id="prototools.componentes.Borde">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Borde</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tipo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'delgado'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Borde" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Borde del menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tipo</strong> (<em>str</em>) – Tipo de borde.</p></li>
+<li><p><strong>superior_izquierdo</strong> (<em>str</em>) – Borde superior izquierdo.</p></li>
+<li><p><strong>superior_derecho</strong> (<em>str</em>) – Borde superior derecho.</p></li>
+<li><p><strong>inferior_izquierdo</strong> (<em>str</em>) – Borde inferior izquierdo.</p></li>
+<li><p><strong>inferior_derecho</strong> (<em>str</em>) – Borde inferior derecho.</p></li>
+<li><p><strong>vertical</strong> (<em>str</em>) – Borde vertical.</p></li>
+<li><p><strong>vertical_izquierdo</strong> (<em>str</em>) – Borde vertical izquierdo.</p></li>
+<li><p><strong>vertical_derecho</strong> (<em>str</em>) – Borde vertical derecho.</p></li>
+<li><p><strong>horizontal</strong> (<em>str</em>) – Borde horizontal.</p></li>
+<li><p><strong>horizontal_izquierdo</strong> (<em>str</em>) – Borde horizontal izquierdo.</p></li>
+<li><p><strong>horizontal_derecho</strong> (<em>str</em>) – Borde horizontal derecho.</p></li>
+<li><p><strong>interseccion</strong> (<em>str</em>) – Borde de interseccion.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span> <span class="o">=</span> <span class="n">Borde</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span><span class="o">.</span><span class="n">superior_izquierdo</span>
+<span class="go">'┌'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span> <span class="o">=</span> <span class="n">Borde</span><span class="p">(</span><span class="s2">"ascii"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span><span class="o">.</span><span class="n">superior_izquierdo</span>
+<span class="go">'+'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span> <span class="o">=</span> <span class="n">Borde</span><span class="p">(</span><span class="s2">"doble"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span><span class="o">.</span><span class="n">establecer_borde</span><span class="p">(</span><span class="s2">"grueso"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span><span class="o">.</span><span class="n">tipo</span>
+<span class="go">'grueso'</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.componentes.Borde.establecer_borde">
+<code class="sig-name descname"><span class="pre">establecer_borde</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tipo</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Borde.establecer_borde" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Establece el tipo del borde.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>tipo</strong> (<em>str</em>) – Tipo de borde (ascii, delgado, grueso, doble).</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span> <span class="o">=</span> <span class="n">Borde</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span><span class="o">.</span><span class="n">establecer_borde</span><span class="p">(</span><span class="s1">'ascii'</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">borde</span><span class="o">.</span><span class="n">tipo</span>
+<span class="go">'ascii'</span>
+</pre></div>
+</div>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Componente">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Componente</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension_max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Componente" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Clase base para los componentes del Menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>estilo</strong> – Estilo para el componente.</p></li>
+<li><p><strong>dimension_max</strong> – Dimension maxima del menu (ancho x alto). Si
+no se especifica, los valores por defecto seran ancho=80
+y alto=40.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – Si estilo no es del tipo Estilo.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span> <span class="o">=</span> <span class="n">Componente</span><span class="p">(</span><span class="n">Estilo</span><span class="p">())</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.componentes.Componente.borde">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">borde</span></code><a class="headerlink" href="#prototools.componentes.Componente.borde" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Los bordes de este componente.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Componente.calcular_ancho_borde">
+<code class="sig-name descname"><span class="pre">calcular_ancho_borde</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Componente.calcular_ancho_borde" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Calcula el ancho del borde del menu.</p>
+<p>Si el ancho máximo es de 80 caracteres y los margenes izquierdo y
+derecho son 1, el ancho seria 77 (80 - 1 - 1 - 1 = 77).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>Ancho del borde en columnas.</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+<p>Example:</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span> <span class="o">=</span> <span class="n">Margen</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span><span class="o">.</span><span class="n">izquierdo</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span><span class="o">.</span><span class="n">derecho</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span> <span class="o">=</span> <span class="n">Componente</span><span class="p">(</span><span class="n">Estilo</span><span class="p">(</span><span class="n">margen</span><span class="o">=</span><span class="n">margen</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span><span class="o">.</span><span class="n">calcular_ancho_borde</span><span class="p">()</span>
+<span class="go">77</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Componente.calcular_ancho_contenido">
+<code class="sig-name descname"><span class="pre">calcular_ancho_contenido</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Componente.calcular_ancho_contenido" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Calcula el ancho del contenido.</p>
+<p>Si el ancho del borde es de 77 y los rellenos izquierdo y derecho
+son 2, el ancho del contenido seria 71 (77 - 2 - 2 - 2 = 71).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>El tamaño del contenido interno en columnas.</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span> <span class="o">=</span> <span class="n">Margen</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span><span class="o">.</span><span class="n">izquierdo</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span><span class="o">.</span><span class="n">derecho</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span> <span class="o">=</span> <span class="n">Componente</span><span class="p">(</span><span class="n">Estilo</span><span class="p">(</span><span class="n">margen</span><span class="o">=</span><span class="n">margen</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span><span class="o">.</span><span class="n">relleno</span><span class="o">.</span><span class="n">izquierdo</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span><span class="o">.</span><span class="n">relleno</span><span class="o">.</span><span class="n">derecho</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span><span class="o">.</span><span class="n">calcular_ancho_borde</span><span class="p">()</span>
+<span class="go">77</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">componente</span><span class="o">.</span><span class="n">calcular_ancho_contenido</span><span class="p">()</span>
+<span class="go">71</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Componente.dimension_max">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">dimension_max</span></code><a class="headerlink" href="#prototools.componentes.Componente.dimension_max" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>La dimension máxima del componente.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Componente.margen">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">margen</span></code><a class="headerlink" href="#prototools.componentes.Componente.margen" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Los margenes de este componente.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Componente.relleno">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">relleno</span></code><a class="headerlink" href="#prototools.componentes.Componente.relleno" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Los rellenos de este componente.</p>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Dimension">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Dimension</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ancho</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Dimension" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Ancho y alto de un componente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ancho</strong> (<em>int</em>) – Ancho del componente en columnas.</p></li>
+<li><p><strong>alto</strong> (<em>int</em>) – Alto del componente en filas.</p></li>
+<li><p><strong>dimension</strong> (<a class="reference internal" href="#prototools.componentes.Dimension" title="prototools.componentes.Dimension"><em>Dimension</em></a><em>, </em><em>optional</em>) – Dimension existente para duplicar
+el ancho y el alto.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dimension</span><span class="o">.</span><span class="n">alto</span>
+<span class="go">40</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dimension</span><span class="o">.</span><span class="n">ancho</span>
+<span class="go">20</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">otra_dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">otra_dimension</span>
+<span class="go">'0x0'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nueva_dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">dimension</span><span class="o">=</span><span class="n">dimension</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">nueva_dimension</span>
+<span class="go">'40x20'</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Elemento">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Elemento</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">texto</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">menu</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">salir</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Elemento generico del menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>texto</strong> (<em>str</em>) – Texto del elemento.</p></li>
+<li><p><strong>menu</strong> (<em>object</em><em>, </em><em>optional</em>) – Menu al que pertenece el elemento.</p></li>
+<li><p><strong>salir</strong> (<em>bool</em><em>, </em><em>optional</em>) – Ya sea si el menu debería salir una vez que la
+accion del elemento haya concluido.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">e1</span> <span class="o">=</span> <span class="n">Elemento</span><span class="p">(</span><span class="s2">"Enviar archivos"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">e2</span> <span class="o">=</span> <span class="n">Elemento</span><span class="p">(</span><span class="s2">"Archivos enviados"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">e3</span> <span class="o">=</span> <span class="n">Elemento</span><span class="p">(</span><span class="s2">"Archivos recibidos"</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.componentes.Elemento.accion">
+<code class="sig-name descname"><span class="pre">accion</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento.accion" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Accion principal del elemento.</p>
+<p>Necesita ser sobreescrito.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elemento.configurar">
+<code class="sig-name descname"><span class="pre">configurar</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento.configurar" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Acciones de configuracion necesarias para el elemento.</p>
+<p>Necesita ser sobreescrito.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elemento.limpiar">
+<code class="sig-name descname"><span class="pre">limpiar</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento.limpiar" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Limpieza de acciones necesarias para el elemento.</p>
+<p>Necesita ser sobreescrito.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elemento.mostrar">
+<code class="sig-name descname"><span class="pre">mostrar</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indice</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento.mostrar" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Como se mostrara el elemento en el menu.</p>
+<p>Por defecto:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span> <span class="o">-</span> <span class="n">Elemento</span>
+<span class="mi">2</span> <span class="o">-</span> <span class="n">Otro</span> <span class="n">elemento</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>indice</strong> (<em>int</em>) – Indice del elemento en la lista de elementos.</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elemento.obtener_retorno">
+<code class="sig-name descname"><span class="pre">obtener_retorno</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento.obtener_retorno" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Retorno del valor del elemento.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elemento.obtener_texto">
+<code class="sig-name descname"><span class="pre">obtener_texto</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elemento.obtener_texto" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Obtener el texto del elemento</p>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Elementos">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Elementos</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension_max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">elementos</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alineacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'izquierda'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elementos" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#prototools.componentes.Componente" title="prototools.componentes.Componente"><code class="xref py py-class docutils literal notranslate"><span class="pre">prototools.componentes.Componente</span></code></a></p>
+<p>Seccion del menu para mostrar las opciones del menu (elementos).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>estilo</strong> (<a class="reference internal" href="#prototools.componentes.Estilo" title="prototools.componentes.Estilo"><em>Estilo</em></a>) – Estilo para el componente.</p></li>
+<li><p><strong>dimension_max</strong> (<a class="reference internal" href="#prototools.componentes.Dimension" title="prototools.componentes.Dimension"><em>Dimension</em></a><em>, </em><em>optional</em>) – Dimension maxima del componente.</p></li>
+<li><p><strong>elementos</strong> (<em>str</em><em>, </em><em>optional</em>) – Elementos de la seccion.</p></li>
+<li><p><strong>alineacion</strong> (<em>str</em>) – Por defecto la alineacion es “izquierda”.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">e1</span> <span class="o">=</span> <span class="n">Elemento</span><span class="p">(</span><span class="s2">"Estado de Cuenta"</span><span class="p">)</span>
+<span class="n">e2</span> <span class="o">=</span> <span class="n">Elemento</span><span class="p">(</span><span class="s2">"Transacciones"</span><span class="p">)</span>
+
+<span class="n">elementos</span> <span class="o">=</span> <span class="n">Elementos</span><span class="p">(</span><span class="n">Estilo</span><span class="p">(),</span> <span class="n">elementos</span><span class="o">=</span><span class="p">(</span><span class="n">e1</span><span class="p">,</span> <span class="n">e2</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">elementos</span><span class="o">.</span><span class="n">_generar</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>│                                                                │
+│  1 - Transacciones                                             │
+│  2 - Estado                                                    │
+│                                                                │
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.componentes.Elementos.elementos">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">elementos</span></code><a class="headerlink" href="#prototools.componentes.Elementos.elementos" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Elementos del componente.</p>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elementos.elementos_borde_inferior">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">elementos_borde_inferior</span></code><a class="headerlink" href="#prototools.componentes.Elementos.elementos_borde_inferior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Retorna una lista de nombres de todos los elementos que deberian
+mostrar un borde inferior.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>Lista de nombres que deberian mostrar un borde inferior.</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elementos.elementos_borde_superior">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">elementos_borde_superior</span></code><a class="headerlink" href="#prototools.componentes.Elementos.elementos_borde_superior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Retorna una lista de nombres de todos los elementos que deberian
+mostrar un borde superior.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>Lista de nombres que deberian mostrar un borde superior.</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elementos.mostrar_elemento_borde_inferior">
+<code class="sig-name descname"><span class="pre">mostrar_elemento_borde_inferior</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">texto</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flag</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elementos.mostrar_elemento_borde_inferior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Coloca un flag que mostrara el borde inferior por un elemento
+con el texto especifico.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>texto</strong> (<em>str</em>) – Texto del elemento.</p></li>
+<li><p><strong>flag</strong> (<em>bool</em>) – Booleano especificando si el borde se mostrara.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Elementos.mostrar_elemento_borde_superior">
+<code class="sig-name descname"><span class="pre">mostrar_elemento_borde_superior</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">texto</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flag</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Elementos.mostrar_elemento_borde_superior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Coloca un flag que mostrara el borde superior por un elemento
+con el texto especifico.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>texto</strong> (<em>str</em>) – Texto del elemento.</p></li>
+<li><p><strong>flag</strong> (<em>bool</em>) – Booleano especificando si el borde se mostrara.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Encabezado">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Encabezado</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension_max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">titulo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">titulo_alineacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subtitulo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subtitulo_alineacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inferior</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Encabezado" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#prototools.componentes.Componente" title="prototools.componentes.Componente"><code class="xref py py-class docutils literal notranslate"><span class="pre">prototools.componentes.Componente</span></code></a></p>
+<p>Encabezado del menu.</p>
+<p>Las alineaciones disponibles son: “centrada”, “izquierda” y “derecha”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>estilo</strong> (<a class="reference internal" href="#prototools.componentes.Estilo" title="prototools.componentes.Estilo"><em>Estilo</em></a>) – Estilo del componente.</p></li>
+<li><p><strong>dimension_max</strong> (<a class="reference internal" href="#prototools.componentes.Dimension" title="prototools.componentes.Dimension"><em>Dimension</em></a><em>, </em><em>optional</em>) – Dimension maxima del componente.</p></li>
+<li><p><strong>titulo</strong> (<em>str</em><em>, </em><em>optional</em>) – Titulo del encabezado.</p></li>
+<li><p><strong>titulo_alineacion</strong> (<em>str</em><em>, </em><em>optional</em>) – Alineacion del titulo.</p></li>
+<li><p><strong>subtitulo</strong> (<em>str</em><em>, </em><em>optional</em>) – Subtitulo del encabezado.</p></li>
+<li><p><strong>subtitulo_alineacion</strong> (<em>str</em><em>, </em><em>optional</em>) – Alineacion del subtitulo.</p></li>
+<li><p><strong>inferior</strong> (<em>bool</em>) – Si es verdadero, muestra el borde inferior, por
+defecto es falso.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>TypeError</strong> – Si alguna de las alineaciones no es la correcta.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">e</span> <span class="o">=</span> <span class="n">Estilo</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">d</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">encabezado</span> <span class="o">=</span> <span class="n">Encabezado</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">titulo</span><span class="o">=</span><span class="s2">"ProtoTools"</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">_generar</span><span class="p">(</span><span class="n">encabezado</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="go">┌─────────────────────────────────┐</span>
+<span class="go">│                                 │</span>
+<span class="go">│  ProtoTools                     │</span>
+<span class="go">│                                 │</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Entrada">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Entrada</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension_max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indicacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'&gt;&gt;&gt;</span> <span class="pre">'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Entrada" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#prototools.componentes.Componente" title="prototools.componentes.Componente"><code class="xref py py-class docutils literal notranslate"><span class="pre">prototools.componentes.Componente</span></code></a></p>
+<p>Representacion de la entrada del menu para el usuario.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>estilo</strong> (<a class="reference internal" href="#prototools.componentes.Estilo" title="prototools.componentes.Estilo"><em>Estilo</em></a>) – Estilo para el componente.</p></li>
+<li><p><strong>dimension_max</strong> (<a class="reference internal" href="#prototools.componentes.Dimension" title="prototools.componentes.Dimension"><em>Dimension</em></a><em>, </em><em>optional</em>) – Dimension maxima del componente.</p></li>
+<li><p><strong>indicacion</strong> (<em>str</em><em>, </em><em>optional</em>) – Indicacion a mostrar en el componente.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La indicación <cite>Opcion:</cite> (del ejemplo) se genera en una línea más
+abajo como se puede apreciar en la salida del script de ejemplo.</p>
+</div>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">d</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">e</span> <span class="o">=</span> <span class="n">Estilo</span><span class="p">()</span>
+<span class="n">entrada</span> <span class="o">=</span> <span class="n">Entrada</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">indicacion</span><span class="o">=</span><span class="s2">"Opcion: "</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">_generar</span><span class="p">(</span><span class="n">entrada</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;</span>
+
+<span class="go">Opcion:</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.componentes.Entrada.indicacion">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">indicacion</span></code><a class="headerlink" href="#prototools.componentes.Entrada.indicacion" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Indicacion de la entrada</p>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Estilo">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Estilo</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">margen</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">relleno</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tipo_borde</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Estilo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Clase para especificar todo el estilo del menu (margenes, relleno y
+borde).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>margen</strong> (<a class="reference internal" href="#prototools.componentes.Margen" title="prototools.componentes.Margen"><em>Margen</em></a>) – Margen del menu.</p></li>
+<li><p><strong>relleno</strong> (<a class="reference internal" href="#prototools.componentes.Relleno" title="prototools.componentes.Relleno"><em>Relleno</em></a>) – Relleno del menu.</p></li>
+<li><p><strong>borde</strong> (<a class="reference internal" href="#prototools.componentes.Borde" title="prototools.componentes.Borde"><em>Borde</em></a>) – Borde del menu.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">estilo</span> <span class="o">=</span> <span class="n">Estilo</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">estilo</span><span class="o">.</span><span class="n">margen</span><span class="o">.</span><span class="n">izquierdo</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">estilo</span><span class="o">.</span><span class="n">borde</span><span class="o">.</span><span class="n">tipo</span>
+<span class="go">'delgado'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">estilo</span><span class="o">.</span><span class="n">rellono</span><span class="o">.</span><span class="n">inferior</span>
+<span class="go">1</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Margen">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Margen</span></code><a class="headerlink" href="#prototools.componentes.Margen" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Margenes del menu.</p>
+<p>El margen es el area entre las dimensiones maximas especificadas (el ancho
+y el alto de la pantalla) y el borde el menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>izquierdo</strong> (<em>int</em>) – Margen izquierdo.</p></li>
+<li><p><strong>derecho</strong> (<em>int</em>) – Margen derecho.</p></li>
+<li><p><strong>superior</strong> (<em>int</em>) – Margen superior.</p></li>
+<li><p><strong>inferior</strong> (<em>int</em>) – Margen inferior.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.componentes</span> <span class="kn">import</span> <span class="n">Margen</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span> <span class="o">=</span> <span class="n">Margen</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span><span class="o">.</span><span class="n">derecho</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">margen</span><span class="o">.</span><span class="n">superior</span>
+<span class="go">1</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Pantalla">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Pantalla</span></code><a class="headerlink" href="#prototools.componentes.Pantalla" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Componente de Pantalla para consola.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>alto</strong> (<em>int</em>) – Alto de la pantalla en columnas.</p></li>
+<li><p><strong>ancho</strong> (<em>int</em>) – Ancho de la pantalla en filas.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.componentes</span> <span class="kn">import</span> <span class="n">Pantalla</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pantalla</span> <span class="o">=</span> <span class="n">Pantalla</span><span class="p">()</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.alto">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">alto</span></code><a class="headerlink" href="#prototools.componentes.Pantalla.alto" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Alto de la pantalla en columnas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.ancho">
+<em class="property"><span class="pre">property</span> </em><code class="sig-name descname"><span class="pre">ancho</span></code><a class="headerlink" href="#prototools.componentes.Pantalla.ancho" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Ancho de la pantalla en filas.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.clear">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">clear</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Pantalla.clear" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Llamado a la funcion “clear” específica de cada plataforma.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.flush">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">flush</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Pantalla.flush" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Volcado del buffer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.input">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">input</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indicacion</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Pantalla.input" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Indicación a mostrar al momento de ingresar una entrada.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>indicacion</strong> (<em>str</em>) – mensaje a mostrar.</p>
+</dd>
+<dt class="field-even">Devuelve</dt>
+<dd class="field-even"><p>La entrada del usuario.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.printf">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">printf</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Pantalla.printf" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Muestra los argumentos en la pantalla.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>*args</strong> – Parámetros de tamaño variable.</p></li>
+<li><p><strong>args</strong> (<em>Any</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.componentes.Pantalla.println">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">println</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Pantalla.println" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Muestra los argumentos en la pantalla, incluyendo una
+nueva línea.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>*args</strong> – Parámetros de tamaño variable.</p></li>
+<li><p><strong>args</strong> (<em>Any</em>) – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Pie">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Pie</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension_max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Pie" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#prototools.componentes.Componente" title="prototools.componentes.Componente"><code class="xref py py-class docutils literal notranslate"><span class="pre">prototools.componentes.Componente</span></code></a></p>
+<p>Seccion de pie del menu.</p>
+<p>La seccion de pie del menu contiene el borde inferior del menu,
+bordes verticales, rellenos inferiores y el margen inferior.</p>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">d</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">e</span> <span class="o">=</span> <span class="n">Estilo</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pie</span> <span class="o">=</span> <span class="n">Pie</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">_generar</span><span class="p">(</span><span class="n">pie</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="go">│                                 │</span>
+<span class="go">└─────────────────────────────────┘</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Relleno">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Relleno</span></code><a class="headerlink" href="#prototools.componentes.Relleno" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Relleno del menu.</p>
+<p>El relleno es el area entre el borde del menu y el contenido del menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>izquierdo</strong> (<em>int</em>) – Relleno izquierdo.</p></li>
+<li><p><strong>derecho</strong> (<em>int</em>) – Relleno derecho.</p></li>
+<li><p><strong>superior</strong> (<em>int</em>) – Relleno superior.</p></li>
+<li><p><strong>inferior</strong> (<em>int</em>) – Relleno inferior.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.componentes</span> <span class="kn">import</span> <span class="n">Relleno</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">relleno</span> <span class="o">=</span> <span class="n">Relleno</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">relleno</span><span class="o">.</span><span class="n">izquierdo</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">relleno</span><span class="o">.</span><span class="n">inferior</span>
+<span class="go">1</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Salir">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Salir</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">texto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Salir'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">menu</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Salir" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#prototools.componentes.Elemento" title="prototools.componentes.Elemento"><code class="xref py py-class docutils literal notranslate"><span class="pre">prototools.componentes.Elemento</span></code></a></p>
+<dl class="py method">
+<dt id="prototools.componentes.Salir.mostrar">
+<code class="sig-name descname"><span class="pre">mostrar</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indice</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Salir.mostrar" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.componentes.Texto">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.componentes.</span></code><code class="sig-name descname"><span class="pre">Texto</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dimension_max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">texto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alineacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'izquierda'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">superior</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">inferior</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.componentes.Texto" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#prototools.componentes.Componente" title="prototools.componentes.Componente"><code class="xref py py-class docutils literal notranslate"><span class="pre">prototools.componentes.Componente</span></code></a></p>
+<p>Seccion para mostrar el texto del menu.</p>
+<p>Bloque que puede ser usado para mostrar texto al usuario en la parte
+superior o inferior de la seccion de elementos.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>estilo</strong> (<a class="reference internal" href="#prototools.componentes.Estilo" title="prototools.componentes.Estilo"><em>Estilo</em></a>) – Estilo para el componente.</p></li>
+<li><p><strong>dimension_max</strong> (<a class="reference internal" href="#prototools.componentes.Dimension" title="prototools.componentes.Dimension"><em>Dimension</em></a><em>, </em><em>optional</em>) – Dimension maxima del componente.</p></li>
+<li><p><strong>texto</strong> (<em>str</em><em>, </em><em>optional</em>) – Texto a mostrar en el bloque de la seccion.</p></li>
+<li><p><strong>alineacion</strong> (<em>str</em>) – Por defecto la alineacion es “izquierda”.</p></li>
+<li><p><strong>superior</strong> (<em>bool</em><em>, </em><em>optional</em>) – Si es verdadero, muestra el borde superior,
+por defecto es falso.</p></li>
+<li><p><strong>inferior</strong> (<em>bool</em><em>, </em><em>optional</em>) – Si es verdadero, muestra el borde inferior,
+por defecto es falso.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">e</span> <span class="o">=</span> <span class="n">Estilo</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">texto</span> <span class="o">=</span> <span class="s1">'Esta es la seccion de texto...'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">t</span> <span class="o">=</span> <span class="n">Texto</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">texto</span><span class="o">=</span><span class="n">texto</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">t</span><span class="o">.</span><span class="n">_generar</span><span class="p">():</span> <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+<span class="go">│                                                                   │</span>
+<span class="go">│  Esta es la seccion de texto...                                   │</span>
+<span class="go">│                                                                   │</span>
+</pre></div>
+</div>
+</dd></dl>
+</div>
+<div class="section" id="module-prototools.config">
+<span id="prototools-config-module"></span><h2>prototools.config module<a class="headerlink" href="#module-prototools.config" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+<div class="section" id="module-prototools.constantes">
+<span id="prototools-constantes-module"></span><h2>prototools.constantes module<a class="headerlink" href="#module-prototools.constantes" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+<div class="section" id="module-prototools.decoradores">
+<span id="prototools-decoradores-module"></span><h2>prototools.decoradores module<a class="headerlink" href="#module-prototools.decoradores" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="py class">
+<dt id="prototools.decoradores.Contador">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">Contador</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">funcion</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.Contador" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Cuenta el número de llamadas que realiza la funcion decorada.</p>
+<p class="rubric">Ejemplos</p>
+<p>Scripts:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@Contador</span>
+<span class="k">def</span> <span class="nf">actualizar</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Actualizando!"</span><span class="p">)</span>
+
+<span class="n">actualizar</span><span class="p">()</span>
+<span class="n">actualizar</span><span class="p">()</span>
+<span class="n">actualizar</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Llamada N°1 de 'actualizar'
+Actualizando!
+Llamada N°2 de 'actualizar'
+Actualizando!
+Llamada N°3 de 'actualizar'
+Actualizando!
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.banner">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">banner</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">contenido</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ancho</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">estilo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.banner" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Banner.</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@banner</span><span class="p">(</span><span class="s2">"ProtoTools"</span><span class="p">,</span> <span class="mi">12</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">mensaje</span><span class="p">():</span>
+    <span class="k">return</span> <span class="kc">None</span>
+
+<span class="n">mensaje</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>════════════
+ ProtoTools
+════════════
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.caja">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">caja</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">estilo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'delgado'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.caja" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Caja que rodea al retorno de la función decorada.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>estilo</strong> (<em>str</em><em>, </em><em>optional</em>) – Estilo del borde.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@caja</span><span class="p">(</span><span class="n">estilo</span><span class="o">=</span><span class="s2">"doble"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">mensaje</span><span class="p">(</span><span class="n">msj</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">msj</span>
+
+<span class="n">mensaje</span><span class="p">(</span><span class="s2">"ProtoTools"</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>╔════════════╗
+║ ProtoTools ║
+╚════════════╝
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.debug">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">debug</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">funcion</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.debug" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Muestra el signature de la función a decorar y retorna su valor.</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@debug</span>
+<span class="k">def</span> <span class="nf">saludar</span><span class="p">(</span><span class="n">nombre</span><span class="p">):</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">"Hola </span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s2">"</span>
+
+<span class="n">saludar</span><span class="p">(</span><span class="s2">"ProtoTools"</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Llamando</span><span class="p">:</span> <span class="n">saludar</span><span class="p">(</span><span class="s1">'ProtoTools'</span><span class="p">)</span>
+<span class="s1">'saludar'</span> <span class="n">retornó</span> <span class="s1">'Hola ProtoTools'</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.obsoleto">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">obsoleto</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mensaje</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.obsoleto" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Decora una funcion obsoleta y manda un mensaje de aviso.</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@obsoleto</span><span class="p">(</span><span class="s2">"se recomendia usar 'obtener_version()'"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">obtener</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s2">"version 1.0"</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">obtener</span><span class="p">())</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>DeprecationWarning:
+Función 'obtener' esta obsoleta!, se recomendia usar 'obtener_version()'
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.ralentizar">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">ralentizar</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_funcion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.ralentizar" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Ralentiza unos segundos antes de llamar a la función decorada.</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@ralentizar</span><span class="p">(</span><span class="n">radio</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">temporizador</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"Fin!"</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+        <span class="n">temporizador</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">temporizador</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>3
+2
+1
+Fin!
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>radio</strong> (<em>int</em>) – </p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.registrar">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">registrar</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">funcion</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.registrar" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Registra una funcion como un plug-in.</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">prototools.decoradores</span> <span class="kn">import</span> <span class="n">PLUGINS</span><span class="p">,</span> <span class="n">registrar</span>
+
+<span class="nd">@registrar</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
+    <span class="k">pass</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">PLUGINS</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>OUTPUT:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="s1">'f'</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">function</span> <span class="n">f</span> <span class="n">at</span> <span class="mh">0x00000258176C64C8</span><span class="o">&gt;</span><span class="p">}</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.repetir">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">repetir</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">_funcion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">2</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.repetir" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Repite un número determinado de veces la función a decorar.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>n</strong> (<em>int</em>) – Cantidad de veces a repetir.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@repetir</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">saludar</span><span class="p">(</span><span class="n">nombre</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Hola </span><span class="si">{</span><span class="n">nombre</span><span class="si">}</span><span class="s2">!"</span><span class="p">)</span>
+
+<span class="n">saludar</span><span class="p">(</span><span class="s2">"ProtoTools"</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Hola ProtoTools!
+Hola ProtoTools!
+Hola ProtoTools!
+Hola ProtoTools!
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.singleton">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">singleton</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cls</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.singleton" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Convierte una clase en Singleton Class (una sola instancia).</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@singleton</span>
+<span class="k">class</span> <span class="nc">T</span><span class="p">:</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="n">T</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">T</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">id</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="go">2031647265608</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">id</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="go">2031647265608</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="ow">is</span> <span class="n">b</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.decoradores.timer">
+<code class="sig-prename descclassname"><span class="pre">prototools.decoradores.</span></code><code class="sig-name descname"><span class="pre">timer</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">funcion</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.decoradores.timer" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Imprime el tiempo de ejecución de la función a decorar.</p>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nd">@timer</span>
+<span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="nb">sum</span><span class="p">([</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10_000</span><span class="p">)])</span>
+
+<span class="n">f</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">f</span> <span class="n">terminó</span> <span class="n">en</span> <span class="mf">0.0289</span> <span class="n">segundos</span>
+</pre></div>
+</div>
+</dd></dl>
+</div>
+<div class="section" id="module-prototools.entradas">
+<span id="prototools-entradas-module"></span><h2>prototools.entradas module<a class="headerlink" href="#module-prototools.entradas" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="py function">
+<dt id="prototools.entradas.entrada_int">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">entrada_int</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indicacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">defecto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tiempo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limite</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aplicar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">menor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mayor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.entrada_int" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Pide al usuario ingresar un valor numerico entero.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>indicacion</strong> (<em>str</em>) – Texto a mostrar.</p></li>
+<li><p><strong>defecto</strong> (<em>Optional</em><em>[</em><em>Any</em><em>]</em>) – Valor por defecto que se muestra si se usa un el
+parámetro “tiempo”.</p></li>
+<li><p><strong>vacio</strong> (<em>bool</em>) – Si es verdadero, acepta valores vacios.</p></li>
+<li><p><strong>tiempo</strong> (<em>Optional</em><em>[</em><em>float</em><em>]</em>) – Número de segundos disponibles para ingresar un valor</p></li>
+<li><p><strong>limite</strong> (<em>Optional</em><em>[</em><em>int</em><em>]</em>) – Número de intentos permitidos.</p></li>
+<li><p><strong>aplicar</strong> (<em>Optional</em><em>[</em><em>Callable</em><em>]</em>) – Función opcional que usa la entrada del usuario y
+retorna un nuevo valor.</p></li>
+<li><p><strong>validar</strong> (<em>Optional</em><em>[</em><em>Callable</em><em>]</em>) – Función de validación opcional.</p></li>
+<li><p><strong>min</strong> (<em>Optional</em><em>[</em><em>int</em><em>]</em>) – Valor mínimo (inclusivo).</p></li>
+<li><p><strong>max</strong> (<em>Optional</em><em>[</em><em>int</em><em>]</em>) – Valor máximo (inclusivo).</p></li>
+<li><p><strong>menor</strong> (<em>Optional</em><em>[</em><em>int</em><em>]</em>) – Valor mínimo (excluyente).</p></li>
+<li><p><strong>mayor</strong> (<em>Optional</em><em>[</em><em>int</em><em>]</em>) – Valor máximo (excluyente).</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.entrada_num">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">entrada_num</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indicacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">defecto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tiempo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limite</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aplicar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">menor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mayor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.entrada_num" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.entrada_sino">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">entrada_sino</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indicacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">si</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'si'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'no'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sensible</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">defecto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tiempo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limite</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aplicar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.entrada_sino" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Ingresar respuestas de tipo si/no</p>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.entrada_str">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">entrada_str</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">indicacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">defecto</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tiempo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limite</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">aplicar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">validar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.entrada_str" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Pide al usuario una cadena de texto a ingresar.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>indicacion</strong> (<em>str</em>) – Texto a mostrar.</p></li>
+<li><p><strong>defecto</strong> (<em>Optional</em><em>[</em><em>Any</em><em>]</em>) – Valor por defecto que se muestra si se usa un el
+parámetro “tiempo”.</p></li>
+<li><p><strong>vacio</strong> (<em>Optional</em><em>[</em><em>bool</em><em>]</em>) – Si es verdadero, acepta valores vacios.</p></li>
+<li><p><strong>tiempo</strong> (<em>Optional</em><em>[</em><em>float</em><em>]</em>) – Número de segundos disponibles para ingresar un valor</p></li>
+<li><p><strong>limite</strong> (<em>Optional</em><em>[</em><em>int</em><em>]</em>) – Número de intentos permitidos.</p></li>
+<li><p><strong>aplicar</strong> (<em>Optional</em><em>[</em><em>Callable</em><em>]</em>) – Función opcional que usa la entrada del usuario y
+retorna un nuevo valor.</p></li>
+<li><p><strong>validar</strong> (<em>Optional</em><em>[</em><em>Callable</em><em>]</em>) – Post validación.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.parametros">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">parametros</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.parametros" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Parámetros comunes para todas las funciones de entrada:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">indicacion</span></code> (str): Texto a mostrar en cada entrada de usuario.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">defecto</span></code> (Any, None): Valor por defecto si se usa un timer.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vacio</span></code> (bool): Si es verdadero, se aceptan valores en blanco.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tiempo</span></code> (int, float): Número de segundos disponibles para ingresar una entrada.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">limite</span></code> (int): Número de intentos permitidos.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">aplicar</span></code> (Callable, None): Función opcional.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">validar</span></code> (Callable, None): Función de validación opcional.</p></li>
+</ul>
+<dl class="field-list simple">
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.valida_sino">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">valida_sino</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.valida_sino" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.validar_int">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">validar_int</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.validar_int" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py function">
+<dt id="prototools.entradas.validar_numero">
+<code class="sig-prename descclassname"><span class="pre">prototools.entradas.</span></code><code class="sig-name descname"><span class="pre">validar_numero</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.entradas.validar_numero" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+</div>
+<div class="section" id="module-prototools.experimental">
+<span id="prototools-experimental-module"></span><h2>prototools.experimental module<a class="headerlink" href="#module-prototools.experimental" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Modulo Experimental</p>
+<dl class="py class">
+<dt id="prototools.experimental.Borde">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.experimental.</span></code><code class="sig-name descname"><span class="pre">Borde</span></code><a class="headerlink" href="#prototools.experimental.Borde" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.horizontal">
+<code class="sig-name descname"><span class="pre">horizontal</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'─'</span></em><a class="headerlink" href="#prototools.experimental.Borde.horizontal" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.horizontal_inferior">
+<code class="sig-name descname"><span class="pre">horizontal_inferior</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┴'</span></em><a class="headerlink" href="#prototools.experimental.Borde.horizontal_inferior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.horizontal_superior">
+<code class="sig-name descname"><span class="pre">horizontal_superior</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┬'</span></em><a class="headerlink" href="#prototools.experimental.Borde.horizontal_superior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.inferior_derecho">
+<code class="sig-name descname"><span class="pre">inferior_derecho</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┘'</span></em><a class="headerlink" href="#prototools.experimental.Borde.inferior_derecho" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.inferior_izquierdo">
+<code class="sig-name descname"><span class="pre">inferior_izquierdo</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'└'</span></em><a class="headerlink" href="#prototools.experimental.Borde.inferior_izquierdo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.interseccion">
+<code class="sig-name descname"><span class="pre">interseccion</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┼'</span></em><a class="headerlink" href="#prototools.experimental.Borde.interseccion" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.superior_derecho">
+<code class="sig-name descname"><span class="pre">superior_derecho</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┐'</span></em><a class="headerlink" href="#prototools.experimental.Borde.superior_derecho" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.superior_izquierdo">
+<code class="sig-name descname"><span class="pre">superior_izquierdo</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┌'</span></em><a class="headerlink" href="#prototools.experimental.Borde.superior_izquierdo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.vertical">
+<code class="sig-name descname"><span class="pre">vertical</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'│'</span></em><a class="headerlink" href="#prototools.experimental.Borde.vertical" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.vertical_derecho">
+<code class="sig-name descname"><span class="pre">vertical_derecho</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'┤'</span></em><a class="headerlink" href="#prototools.experimental.Borde.vertical_derecho" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Borde.vertical_izquierdo">
+<code class="sig-name descname"><span class="pre">vertical_izquierdo</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'├'</span></em><a class="headerlink" href="#prototools.experimental.Borde.vertical_izquierdo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.experimental.Margen">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.experimental.</span></code><code class="sig-name descname"><span class="pre">Margen</span></code><a class="headerlink" href="#prototools.experimental.Margen" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.experimental.Margenes">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.experimental.</span></code><code class="sig-name descname"><span class="pre">Margenes</span></code><a class="headerlink" href="#prototools.experimental.Margenes" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="prototools.experimental.Margenes.derecho">
+<code class="sig-name descname"><span class="pre">derecho</span></code><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#prototools.experimental.Margenes.derecho" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Margenes.inferior">
+<code class="sig-name descname"><span class="pre">inferior</span></code><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#prototools.experimental.Margenes.inferior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Margenes.izquierdo">
+<code class="sig-name descname"><span class="pre">izquierdo</span></code><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#prototools.experimental.Margenes.izquierdo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Margenes.superior">
+<code class="sig-name descname"><span class="pre">superior</span></code><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#prototools.experimental.Margenes.superior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+</dd></dl>
+<dl class="py class">
+<dt id="prototools.experimental.Relleno">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.experimental.</span></code><code class="sig-name descname"><span class="pre">Relleno</span></code><a class="headerlink" href="#prototools.experimental.Relleno" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="prototools.experimental.Relleno.derecho">
+<code class="sig-name descname"><span class="pre">derecho</span></code><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#prototools.experimental.Relleno.derecho" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Relleno.inferior">
+<code class="sig-name descname"><span class="pre">inferior</span></code><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#prototools.experimental.Relleno.inferior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Relleno.izquierdo">
+<code class="sig-name descname"><span class="pre">izquierdo</span></code><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#prototools.experimental.Relleno.izquierdo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+<dl class="py attribute">
+<dt id="prototools.experimental.Relleno.superior">
+<code class="sig-name descname"><span class="pre">superior</span></code><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#prototools.experimental.Relleno.superior" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.experimental.partir">
+<code class="sig-prename descclassname"><span class="pre">prototools.experimental.</span></code><code class="sig-name descname"><span class="pre">partir</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">predicado</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">valores</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.experimental.partir" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Separa los valores en dos conjuntos, basado en el retorno de la función
+(True/False):</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">t</span> <span class="o">=</span> <span class="n">partir</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">))</span>
+<span class="go">([4, 5, 6, 7, 8], [0, 1, 2, 3])</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>Tuple[list, list]</p>
+</dd>
+</dl>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.experimental.strip_ansi">
+<code class="sig-prename descclassname"><span class="pre">prototools.experimental.</span></code><code class="sig-name descname"><span class="pre">strip_ansi</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.experimental.strip_ansi" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd></dd></dl>
+</div>
+<div class="section" id="module-prototools.menu">
+<span id="prototools-menu-module"></span><h2>prototools.menu module<a class="headerlink" href="#module-prototools.menu" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="py class">
+<dt id="prototools.menu.EzMenu">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">prototools.menu.</span></code><code class="sig-name descname"><span class="pre">EzMenu</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">opcion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">plugins</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">titulo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Menu</span> <span class="pre">Principal'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subtitulo</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">indicacion</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'Opcion:</span> <span class="pre">'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ancho</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">registrar</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Representacion de un Menu de opciones (EZ version).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>opcion</strong> (<em>list</em><em>, </em><em>optional</em>) – Lista o tupla de etiquetas de cada opcion
+del menu.</p></li>
+<li><p><strong>plugins</strong> (<em>dict</em><em>, </em><em>optional</em>) – Diccionario con funciones como valores.</p></li>
+<li><p><strong>titulo</strong> (<em>str</em><em>, </em><em>optional</em>) – Titulo por defecto “Menu”.</p></li>
+<li><p><strong>subtitulo</strong> (<em>str</em><em>, </em><em>optional</em>) – Subtitulo por defecto “None”.</p></li>
+<li><p><strong>indicacion</strong> (<em>str</em><em>, </em><em>optional</em>) – Mensaje por defecto “Opcion:”.</p></li>
+<li><p><strong>ancho</strong> (<em>int</em><em>, </em><em>optional</em>) – Ancho del Menu.</p></li>
+<li><p><strong>registrar</strong> (<em>bool</em><em>, </em><em>optional</em>) – Si es verdadero, acepta el registro de
+plugins.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<p>Script:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">prototools.menu</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+
+<span class="k">def</span> <span class="nf">_entradas</span><span class="p">():</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Ingresar el primer numero: "</span><span class="p">)</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Ingresar el segundo numero: "</span><span class="p">)</span>
+    <span class="k">return</span> <span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="nb">float</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">suma</span><span class="p">():</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">_entradas</span><span class="p">(</span><span class="n">mensajes</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">resta</span><span class="p">():</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">_entradas</span><span class="p">(</span><span class="n">mensajes</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">multiplicacion</span><span class="p">():</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">_entradas</span><span class="p">(</span><span class="n">mensajes</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">division</span><span class="p">():</span>
+    <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">_entradas</span><span class="p">(</span><span class="n">mensajes</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">/</span><span class="n">y</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">ZeroDivisionError</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"No es divisible"</span><span class="p">)</span>
+
+<span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="n">menu</span><span class="o">.</span><span class="n">agregar_opciones</span><span class="p">(</span><span class="s2">"sumar"</span><span class="p">,</span> <span class="s2">"restar"</span><span class="p">,</span> <span class="s2">"multiplicar"</span><span class="p">,</span> <span class="s2">"dividir"</span><span class="p">,</span> <span class="s2">"salir"</span><span class="p">)</span>
+<span class="n">menu</span><span class="o">.</span><span class="n">agregar_funciones</span><span class="p">(</span><span class="n">suma</span><span class="p">,</span> <span class="n">resta</span><span class="p">,</span> <span class="n">multiplicacion</span><span class="p">,</span> <span class="n">division</span><span class="p">)</span>
+<span class="n">menu</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>┌──────────────────────────────────────┐
+│            Menu Principal            │
+│ 1. Sumar                             │
+│ 2. Restar                            │
+│ 3. Multiplicar                       │
+│ 4. Dividir                           │
+│ 5. Salir                             │
+└──────────────────────────────────────┘
+Opcion:
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="prototools.menu.EzMenu.agregar_funcion">
+<code class="sig-name descname"><span class="pre">agregar_funcion</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nombre</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">args</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu.agregar_funcion" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Agrega una funcion al menú.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>nombre</strong> (<em>func</em>) – Nombre de la función.</p></li>
+<li><p><strong>key</strong> (<em>int</em>) – Número del menú de opciones.</p></li>
+<li><p><strong>args</strong> (<em>Any</em><em>, </em><em>optional</em>) – Argumentos de la funcion.</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">prototools.menu</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+
+<span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
+    <span class="k">pass</span>
+
+<span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="n">menu</span><span class="o">.</span><span class="n">agregar_funcion</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.menu.EzMenu.agregar_funciones">
+<code class="sig-name descname"><span class="pre">agregar_funciones</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu.agregar_funciones" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Agrega una serie de funciones al menú.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>*args</strong> (<em>Callable</em>) – Nombre de funciones ordenadas al igual que el
+menú de opciones.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">prototools.menu</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+
+<span class="k">def</span> <span class="nf">a</span><span class="p">():</span>
+    <span class="k">pass</span>
+
+<span class="k">def</span> <span class="nf">b</span><span class="p">():</span>
+    <span class="k">pass</span>
+
+<span class="k">def</span> <span class="nf">c</span><span class="p">():</span>
+    <span class="k">pass</span>
+
+<span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="n">menu</span><span class="o">.</span><span class="n">agregar_funciones</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.menu.EzMenu.agregar_opciones">
+<code class="sig-name descname"><span class="pre">agregar_opciones</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu.agregar_opciones" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Agrega las opciones del menú.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>*args</strong> (<em>str</em>) – Serie de opciones.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.menu</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span><span class="o">.</span><span class="n">agregar_opciones</span><span class="p">(</span><span class="s2">"Registrar"</span><span class="p">,</span> <span class="s2">"Ver"</span><span class="p">,</span> <span class="s2">"Salir"</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.menu.EzMenu.indicacion">
+<code class="sig-name descname"><span class="pre">indicacion</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">mensaje</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu.indicacion" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Modifica el mensaje de la indicacion de la entrada.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>mensaje</strong> (<em>str</em>) – Mensaje a mostrar en la entrada de opciones.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.menu</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span><span class="o">.</span><span class="n">indicacion</span><span class="p">(</span><span class="s2">"Ingresa una opcion: "</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.menu.EzMenu.run">
+<code class="sig-name descname"><span class="pre">run</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu.run" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Ejecuta el menu de opciones.</p>
+<p class="rubric">Ejemplo</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py method">
+<dt id="prototools.menu.EzMenu.titulo">
+<code class="sig-name descname"><span class="pre">titulo</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">titulo</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.menu.EzMenu.titulo" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Modifica el titulo del menu principal de opciones.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>titulo</strong> (<em>str</em>) – Titulo principal a mostrar en el menu de opciones.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.menu</span> <span class="kn">import</span> <span class="n">EzMenu</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span> <span class="o">=</span> <span class="n">EzMenu</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">menu</span><span class="o">.</span><span class="n">titulo</span><span class="p">(</span><span class="s2">"Bienvenido"</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+</dd></dl>
+</div>
+<div class="section" id="module-prototools.validaciones">
+<span id="prototools-validaciones-module"></span><h2>prototools.validaciones module<a class="headerlink" href="#module-prototools.validaciones" title="Enlazar permanentemente con este título">¶</a></h2>
+<dl class="py function">
+<dt id="prototools.validaciones.validar_float">
+<code class="sig-prename descclassname"><span class="pre">prototools.validaciones.</span></code><code class="sig-name descname"><span class="pre">validar_float</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">menor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mayor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">custom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.validaciones.validar_float" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Validación de números flotantes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>valor</strong> (<em>str</em>) – Valor flotante a ser validado.</p></li>
+<li><p><strong>vacio</strong> (<em>Optional</em><em>[</em><em>bool</em><em>]</em>) – Si es verdadero, permite el ingreso de valores vacíos,
+por defecto es falso.</p></li>
+<li><p><strong>min</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor mínimo (inclusivo) para pasar la validación.</p></li>
+<li><p><strong>max</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor máximo (inclusivo) para pasar la validación.</p></li>
+<li><p><strong>menor</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor mínimo (excluyente) para pasar la validación.</p></li>
+<li><p><strong>mayor</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor máximo (excluyente) para pasar la validación.</p></li>
+<li><p><strong>custom</strong> (<em>Optional</em><em>[</em><em>str</em><em>]</em>) – Mensaje de error personalizado.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve</dt>
+<dd class="field-even"><p>Valor numérico flotante.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>_ValidacionExcepcion</strong> – Si el valor no es un flotante.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.validaciones</span> <span class="kn">import</span> <span class="n">validar_float</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_float</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">1.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_float</span><span class="p">(</span><span class="mf">1.4</span><span class="p">)</span>
+<span class="go">1.4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_float</span><span class="p">(</span><span class="o">-</span><span class="mi">13</span><span class="p">)</span>
+<span class="go">-13.0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_float</span><span class="p">(</span><span class="s1">'pi'</span><span class="p">)</span>
+<span class="gt">Traceback (most recent call last):</span>
+    <span class="o">...</span>
+<span class="gr">prototools._ValidacionException</span>: <span class="n">pi no es un flotante.</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.validaciones.validar_int">
+<code class="sig-prename descclassname"><span class="pre">prototools.validaciones.</span></code><code class="sig-name descname"><span class="pre">validar_int</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">min</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">menor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mayor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">custom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.validaciones.validar_int" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Validación de números enteros.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>valor</strong> (<em>str</em>) – Valor entero a ser validado.</p></li>
+<li><p><strong>vacio</strong> (<em>Optional</em><em>[</em><em>bool</em><em>]</em>) – Si es verdadero, permite el ingreso de valores vacíos,
+por defecto es falso.</p></li>
+<li><p><strong>min</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor mínimo (inclusivo) para pasar la validación.</p></li>
+<li><p><strong>max</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor máximo (inclusivo) para pasar la validación.</p></li>
+<li><p><strong>menor</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor mínimo (excluyente) para pasar la validación.</p></li>
+<li><p><strong>mayor</strong> (<em>Optional</em><em>[</em><em>Union</em><em>[</em><em>int</em><em>, </em><em>float</em><em>]</em><em>]</em>) – Valor máximo (excluyente) para pasar la validación.</p></li>
+<li><p><strong>custom</strong> (<em>Optional</em><em>[</em><em>str</em><em>]</em>) – Mensaje de error personalizado.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve</dt>
+<dd class="field-even"><p>Valor numérico entero.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>_ValidacionExcepcion</strong> – Si el valor no es un entero.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.validaciones</span> <span class="kn">import</span> <span class="n">validar_int</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_int</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_int</span><span class="p">(</span><span class="s1">'8'</span><span class="p">)</span>
+<span class="go">8</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_int</span><span class="p">(</span><span class="s1">'A4'</span><span class="p">)</span>
+<span class="gt">Traceback (most recent call last):</span>
+    <span class="o">...</span>
+<span class="gr">prototools._ValidacionException</span>: <span class="n">A4 no es un entero.</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.validaciones.validar_si_no">
+<code class="sig-prename descclassname"><span class="pre">prototools.validaciones.</span></code><code class="sig-name descname"><span class="pre">validar_si_no</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">si</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'si'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'no'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sensible</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">custom</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.validaciones.validar_si_no" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Validación para entradas si y no.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>valor</strong> (<em>str</em>) – Valor a ser validado.</p></li>
+<li><p><strong>vacio</strong> (<em>Optional</em><em>[</em><em>bool</em><em>]</em>) – Si es verdadero, permite el ingreso de valores vacios,
+por defecto es falso.</p></li>
+<li><p><strong>si</strong> (<em>Optional</em><em>[</em><em>str</em><em>]</em>) – Valor de la respuesta afirmativa, por defecto “si”.</p></li>
+<li><p><strong>no</strong> (<em>Optional</em><em>[</em><em>str</em><em>]</em>) – Valor de la respuesta negativa, por defecto “no”.</p></li>
+<li><p><strong>sensible</strong> (<em>Optional</em><em>[</em><em>bool</em><em>]</em>) – Si es verdadero, distingue entre mayúsculas y minúsculas.</p></li>
+<li><p><strong>custom</strong> (<em>Optional</em><em>[</em><em>str</em><em>]</em>) – Mensaje de error personalizado.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve</dt>
+<dd class="field-even"><p>El argumento del parámetro “si” o “no”, no el valor.</p>
+</dd>
+<dt class="field-odd">Muestra</dt>
+<dd class="field-odd"><p><strong>ValidacionExcepcion</strong> – Si el valor no es una respuesta si o no.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.validaciones</span> <span class="kn">import</span> <span class="n">validar_si_no</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_si_no</span><span class="p">(</span><span class="s1">'s'</span><span class="p">)</span>
+<span class="go">'si'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_si_no</span><span class="p">(</span><span class="s1">'si'</span><span class="p">)</span>
+<span class="go">'si'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_si_no</span><span class="p">(</span><span class="s1">'no'</span><span class="p">)</span>
+<span class="go">'no'</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_si_no</span><span class="p">(</span><span class="s1">'Ok'</span><span class="p">,</span> <span class="n">si</span><span class="o">=</span><span class="s1">'ok'</span><span class="p">,</span> <span class="n">no</span><span class="o">=</span><span class="s1">'nope'</span><span class="p">)</span>
+<span class="go">'ok'</span>
+</pre></div>
+</div>
+</dd></dl>
+<dl class="py function">
+<dt id="prototools.validaciones.validar_str">
+<code class="sig-prename descclassname"><span class="pre">prototools.validaciones.</span></code><code class="sig-name descname"><span class="pre">validar_str</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">valor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vacio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#prototools.validaciones.validar_str" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Validación de cadenas de texto.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>valor</strong> (<em>str</em>) – Cadena de texto a validar.</p></li>
+<li><p><strong>vacio</strong> (<em>Optional</em><em>[</em><em>bool</em><em>]</em>) – Si es verdadero, permite el ingreso de valores vacíos,
+por defecto es falso.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Devuelve</dt>
+<dd class="field-even"><p>Cadena de texto.</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><strong>_ValidacionExcepcion</strong> – Si el valor no es una cadena de texto.</p>
+</dd>
+</dl>
+<p class="rubric">Ejemplos</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">prototools.validaciones</span> <span class="kn">import</span> <span class="n">validar_str</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_str</span><span class="p">(</span><span class="s1">'python'</span><span class="p">)</span>
+<span class="go">python</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_str</span><span class="p">(</span><span class="s1">'  rust'</span><span class="p">)</span>
+<span class="go">rust</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">validar_str</span><span class="p">(</span><span class="s1">''</span><span class="p">)</span>
+<span class="gt">Traceback (most recent call last):</span>
+    <span class="o">...</span>
+<span class="gr">prototools._ValidacionException</span>: <span class="n">No se permiten valores en blanco.</span>
+</pre></div>
+</div>
+</dd></dl>
+</div>
+<div class="section" id="module-prototools">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-prototools" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+</div>
+
+      </article>
+      <footer>
+        
+        <div class="related-pages">
+          
+          <a class="prev-page" href="modules.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">prototools</div>
+                
+              </div>
+            </a>
+        </div>
+
+        <div class="related-information">
+              Copyright &#169; 2021, leugimkm
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            Contenidos
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">prototools package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-prototools.componentes">prototools.componentes module</a></li>
+<li><a class="reference internal" href="#module-prototools.config">prototools.config module</a></li>
+<li><a class="reference internal" href="#module-prototools.constantes">prototools.constantes module</a></li>
+<li><a class="reference internal" href="#module-prototools.decoradores">prototools.decoradores module</a></li>
+<li><a class="reference internal" href="#module-prototools.entradas">prototools.entradas module</a></li>
+<li><a class="reference internal" href="#module-prototools.experimental">prototools.experimental module</a></li>
+<li><a class="reference internal" href="#module-prototools.menu">prototools.menu module</a></li>
+<li><a class="reference internal" href="#module-prototools.validaciones">prototools.validaciones module</a></li>
+<li><a class="reference internal" href="#module-prototools">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </main>
+</div>
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <script src="_static/scripts/main.js?digest=e931d09b2a40c1bb82b542effe772014573baf67"></script></body>
+</html>
