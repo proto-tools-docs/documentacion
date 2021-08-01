@@ -4,6 +4,14 @@ prototools package
 Submodules
 ----------
 
+prototools.color module
+-----------------------
+
+.. automodule:: prototools.color
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 prototools.componentes module
 -----------------------------
 
@@ -28,14 +36,6 @@ prototools.constantes module
    :undoc-members:
    :show-inheritance:
 
-prototools.decoradores module
------------------------------
-
-.. automodule:: prototools.decoradores
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
 prototools.entradas module
 --------------------------
 
@@ -56,6 +56,14 @@ prototools.menu module
 ----------------------
 
 .. automodule:: prototools.menu
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+prototools.utils module
+-----------------------
+
+.. automodule:: prototools.utils
    :members:
    :undoc-members:
    :show-inheritance:
