@@ -1,6 +1,6 @@
-=======================================
-``prototools``: Prototipadando CLI apps 
-=======================================
+==============
+``prototools``
+==============
 
 .. toctree::
    :hidden:
@@ -8,31 +8,50 @@
 
    user
    examples
-   conducta
-   licencia
+   conduct
+   license
    modules
 
-``prototools`` es un conjunto de herramientas que reduce considerablemente
-la cantidad de tiempo que se emplea para el prototipado de aplicaciones de 
-consola (CLI) y aplicaciones de interfaz gráfica (GUI, aún en desarrollo y 
-disponible en forma experimental).
+::
 
-Inicio Rápido
-=============
+                           __       __            __
+            ___  _______  / /____  / /____  ___  / /__
+           / _ \/ __/ _ \/ __/ _ \/ __/ _ \/ _ \/ (_-<
+          / .__/_/  \___/\__/\___/\__/\___/\___/_/___/
+         /_/
 
-**prototools** se encuentra en `PyPi <https://pypi.org/>`_ (disponible bajo la licencia MIT) 
-y puede ser instalado mediante `pip <https://docs.python.org/es/3/installing/index.html>`_
+
+`prototools` is a set of tools that considerably reduce the amount of time 
+spent writing console applications.
+
+
+Installation
+============
+
+`prototools` is available on PyPi `PyPi <https://pypi.org/project/prototools/>`_ (MIT license) 
+and installation can be performed by running `pip <https://docs.python.org/es/3/installing/index.html>`_
 
 .. code-block:: console
 
    python -m pip install prototools
 
+To upgrade the package:
+
+.. code-block:: console
+
+   python -m pip install prototools --upgrade
+
 .. note::
 
-   Se aconseja instalar en un entorno virtual.
+   It's recommended to use virtual environment.
 
-Contribución
+
+Contribution
 ============
 
-Puedes contribuir con el desarrollo de ``prototools`` de diversas formas (no 
-solo codificando).
+You can contribute with ``prototools`` in so many ways (not just coding).
+Every idea is welcome! You can suggest new features or report a bug when
+you find it. Every contribution that you made it'll be mention in this 
+project.
+
+`Bugs report <https://github.com/proto-tools/docs/issues>`_

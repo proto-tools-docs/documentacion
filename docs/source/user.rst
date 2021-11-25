@@ -1,67 +1,65 @@
-===============
-Guía de usuario
-===============
+============
+User's guide
+============
 
-Primeros Pasos
-==============
-
-.. todo::
-
-   Tutoriales.
-
-   * Visión General e Instalacion
-   * Parte 1
-   * Parte 2
-   * Parte 3
-   * Parte 4
-   * Parte 5
-   * Parte 6
-   * Parte 7
-
-
-Guias Tematicas
-===============
+First Steps
+===========
 
 .. todo::
+    Tutorials
 
-   Temas y conceptos fundamentales.
+    * Installation
+    * Part 1
+    * Part 2
+    * Part 3
+    * Part 4
+    * Part 5
+    * Part 6
+    * Part 7
 
-   * Captura de datos
-   * validaciones de datos
-   * Excepciones y errores
-   * Modularidad
-   * Arquitectura y Patrones de Diseño
-   * Persistencia de datos
-   
 
-Guías de referencias
+Thematic Walkthrough
 ====================
 
-.. todo:: 
+.. todo::
 
-   Referencias a los modulos del paquete 
-   (se iran añadiendo más módulos).
-   
-   * color
-   * componentes
-   * config
-   * constantes
-   * decoradores
-   * entradas
-   * experimental
-   * menu
-   * validaciones
+    Core concepts and features
+
+    * Capture data
+    * Data validation
+    * Exceptions and error handling
+    * Modular design
+    * Design patterns and Architecture
+    * Data persistence
 
 
-Guías de Uso
+Reference
+=========
+
+.. todo::
+
+    Module's reference
+
+    * colorize
+    * components
+    * config
+    * constants
+    * decorators
+    * inputs
+    * keyboard
+    * menu
+    * protodb
+    * tabulate
+    * utils
+    * validators
+
+User's guide
 ============
 
 .. todo::
 
-   Fórmulas para casos de uso particulares. 
-   Mas avanzado que los tutoriales.
+    Code examples for particular use cases
 
-   * Registrar plugins
-   * Uso de decoradores
-   * Testing
-   * El modulo experimental
+    * Registering plugins
+    * Use of decorators
+    * Testing

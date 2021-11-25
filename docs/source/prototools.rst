@@ -4,18 +4,18 @@ prototools package
 Submodules
 ----------
 
-prototools.color module
------------------------
+prototools.colorize module
+--------------------------
 
-.. automodule:: prototools.color
+.. automodule:: prototools.colorize
    :members:
    :undoc-members:
    :show-inheritance:
 
-prototools.componentes module
------------------------------
+prototools.components module
+----------------------------
 
-.. automodule:: prototools.componentes
+.. automodule:: prototools.components
    :members:
    :undoc-members:
    :show-inheritance:
@@ -28,26 +28,34 @@ prototools.config module
    :undoc-members:
    :show-inheritance:
 
-prototools.constantes module
+prototools.constants module
+---------------------------
+
+.. automodule:: prototools.constants
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+prototools.decorators module
 ----------------------------
 
-.. automodule:: prototools.constantes
+.. automodule:: prototools.decorators
    :members:
    :undoc-members:
    :show-inheritance:
 
-prototools.entradas module
+prototools.inputs module
+------------------------
+
+.. automodule:: prototools.inputs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+prototools.keyboard module
 --------------------------
 
-.. automodule:: prototools.entradas
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-prototools.experimental module
-------------------------------
-
-.. automodule:: prototools.experimental
+.. automodule:: prototools.keyboard
    :members:
    :undoc-members:
    :show-inheritance:
@@ -60,6 +68,22 @@ prototools.menu module
    :undoc-members:
    :show-inheritance:
 
+prototools.protodb module
+-------------------------
+
+.. automodule:: prototools.protodb
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+prototools.tabulate module
+--------------------------
+
+.. automodule:: prototools.tabulate
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 prototools.utils module
 -----------------------
 
@@ -68,10 +92,10 @@ prototools.utils module
    :undoc-members:
    :show-inheritance:
 
-prototools.validaciones module
-------------------------------
+prototools.validators module
+----------------------------
 
-.. automodule:: prototools.validaciones
+.. automodule:: prototools.validators
    :members:
    :undoc-members:
    :show-inheritance:
